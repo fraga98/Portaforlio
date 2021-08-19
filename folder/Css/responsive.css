@@ -1,0 +1,37 @@
+
+
+
+@media only screen and (max-width: 600px){
+
+   .responsive {
+
+       width: 80%;
+       height: 80%;
+
+   }
+
+  .ContenedorIconos_Responsivos{
+   /*Saco los iconos de las redes*/
+
+     display: none;
+     background-color: red;
+  }
+
+  .Conenedorico_Resposive{
+     
+     width: 90%;
+     display: inline-block;
+     background-color: #e4e4e4;
+
+     padding: 10px;
+
+  }
+
+  .enlace_formatoResponsivo:hover{
+  /*enlace del los iconos*/
+     border-bottom: 3px solid black;
+     padding-bottom: 3px;
+
+  }
+
+}/*Responsive*/

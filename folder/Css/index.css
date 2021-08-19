@@ -10,7 +10,19 @@ body{
 
 	font-family: Arial;
     background-color: white;
-  
+}
+
+
+/*--------Iconos arriba (Se ocultan en el responsive se muestran)*/
+
+.iconosArriva{
+   display: none;
+}
+
+Label{
+
+    font-size: 40px;
+    margin-left: 15px;
 }
 
 /*--------------------Contenedor*/
@@ -38,9 +50,13 @@ body{
    border: 2px solid #0fa7ac;
 }
 
+.parrafoSobreMi{
+   
+   color: black;
+}
+
 .enlaceMasSobreMi{
 /*a - boton*/ 
-   
    background-color: yellow;
 	color: black;
    text-decoration: none;
@@ -54,8 +70,8 @@ body{
 }
 
 .formatoIcono:hover{
-
-   border-bottom: 3px solid yellow;
+/*Enlaces*/
+   border-bottom: 3px solid #0a0a0a;
    padding-bottom: 10px;
 }
 
@@ -123,20 +139,19 @@ body{
 
 }
 
-.enlaceEmail{
-/*email*/
-    color: blue;
-    text-decoration: none;
-    margin-top: 10px;
-
-}
-
 .imagenCorreo{
 
    margin-bottom: -15px;
 }
 
-.enlaceEmail:hover{
+a{
+/*email*/
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+a:hover{
 
     text-decoration: underline; 
 }
@@ -147,60 +162,4 @@ body{
 
 
 
-
-
-/**
- *   
- *  Resposivooooo
- * 
- * */
-
-/*Resposivo Galeria Imagenes
-
-
-@media only screen and (max-width: 1015px){
-
-   .ImaganesGrandes_responsive{
-
-       width: 100%;
-      margin: auto;
-   }
-
-}
-
-@media only screen and (max-width: 1013px){
-
-   .ImaganesGrandes_responsive{
-
-       width: 753px;
-
-   }
-
-}
-*/
-@media only screen and (max-width: 600px){
-
-   .responsive {
-
-       width: 80%;
-       height: 80%;
-
-   }
-
-}
-
-
-/*@media only screen and (max-width: 100%){
-
-   .ImaganesGrandes_responsive{
-
-       width: 100%;
-   }
-   
-   .ImaganesChicas_responsive{
-
-       width: 100%;
-   }
-
-} */
 
