@@ -1,0 +1,206 @@
+
+
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	font-family: Arial;
+    background-color: white;
+  
+}
+
+/*--------------------Contenedor*/
+
+ .Contenedor{
+           
+    background-color: #fcfcfc;
+    background: linear-gradient(to right, #16cad0, white); 
+    display: flex;
+    justify-content: left;
+ }
+
+.hijo{
+
+   width: 400px;
+	/*background-color: #16cad0; AZUL VERDE*/
+	padding: 30px;
+}
+
+.imagenMia{
+   
+   width:  150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 2px solid #0fa7ac;
+}
+
+.enlaceMasSobreMi{
+/*a - boton*/ 
+   
+   background-color: yellow;
+	color: black;
+   text-decoration: none;
+   border: 1px solid #aab225;
+   padding: 5px;
+}
+
+.enlaceMasSobreMi:hover{
+
+	background-color: #f2f891;
+}
+
+.formatoIcono:hover{
+
+   border-bottom: 3px solid yellow;
+   padding-bottom: 10px;
+}
+
+.formatoEspecial{
+
+	padding-top: 300px;
+}
+
+
+/*------MIS PROYECTOS-----*/
+
+.tituloMisProyectos{
+/*Titulo mis proyectos*/
+
+   font-size: 40px;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.ParrafoDescripcion{
+
+   text-align: center;
+   color: black;
+   font-size: 23px;
+   margin: 30px;
+}
+
+.FragaTex{
+
+   text-shadow: 1px 0.1px #16cad0;
+}
+
+.ContenedorProyectos{
+  
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.bordesImagen{
+/*Hijos del contenedor*/
+    border: 1px solid #b5bbb8;
+    box-shadow: 1px 2px 1px 1px #b5bbb8;
+    border-radius: 10px;
+    margin: 3px;
+
+}
+
+/*------PIE DE PAGINA*/
+
+
+ footer{
+
+    background-color: #cdd1d0;
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
+
+ }
+
+.parrafo_PieDePagina{
+
+   text-align: center;
+   padding: 50px;
+
+}
+
+.enlaceEmail{
+/*email*/
+    color: blue;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.imagenCorreo{
+
+   margin-bottom: -15px;
+}
+
+.enlaceEmail:hover{
+
+    text-decoration: underline; 
+}
+
+
+
+
+
+
+
+
+
+/**
+ *   
+ *  Resposivooooo
+ * 
+ * */
+
+/*Resposivo Galeria Imagenes
+
+
+@media only screen and (max-width: 1015px){
+
+   .ImaganesGrandes_responsive{
+
+       width: 100%;
+      margin: auto;
+   }
+
+}
+
+@media only screen and (max-width: 1013px){
+
+   .ImaganesGrandes_responsive{
+
+       width: 753px;
+
+   }
+
+}
+*/
+@media only screen and (max-width: 600px){
+
+   .responsive {
+
+       width: 80%;
+       height: 80%;
+
+   }
+
+}
+
+
+/*@media only screen and (max-width: 100%){
+
+   .ImaganesGrandes_responsive{
+
+       width: 100%;
+   }
+   
+   .ImaganesChicas_responsive{
+
+       width: 100%;
+   }
+
+} */
+
